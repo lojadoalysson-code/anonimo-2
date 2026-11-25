@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VIP Exclusive | Acesso Especial</title>
+
+<style>
+* {
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+}
+body {
+ font-family:Arial,sans-serif;
+ background:#09050e;
+ color:white;
+ min-height:100vh;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+ padding:20px;
+ overflow-x:hidden;
+}
+body:before {
+ content:"";
+ position:fixed;
+ width:400px;
+ height:400px;
+ background:#8b00ff;
+ filter:blur(160px);
+ opacity:.3;
+ top:-100px;
+ left:-100px;
+}
+body:after {
+ content:"";
+ position:fixed;
+ width:350px;
+ height:350px;
+ background:#ff0055;
+ filter:blur(150px);
+ opacity:.2;
+ bottom:-100px;
+ right:-100px;
+}
+.container {
+ position:relative;
+ z-index:1;
+ width:100%;
+ max-width:480px;
+ background:rgba(22,12,29,.92);
+ border:1px solid #8e26bd;
+ border-radius:25px;
+ padding:40px 25px;
+ text-align:center;
+ box-shadow:0 0 35px #9700ff33;
+}
+.logo {
+ font-size:55px;
+ margin-bottom:15px;
+}
+.tag {
+ display:inline-block;
+ border:1px solid #bb55ff;
+ color:#dba8ff;
+ padding:8px 16px;
+ border-radius:30px;
+ font-size:11px;
+ letter-spacing:2px;
+ font-weight:bold;
+}
+h1 {
+ font-size:37px;
+ line-height:1.15;
+ margin:25px 0 15px;
+}
+h1 span {
+ color:#d45aff;
+ text-shadow:0 0 18px #a000ff;
+}
+.description {
+ color:#c9bccc;
+ line-height:1.7;
+ font-size:15px;
+}
+.features {
+ text-align:left;
+ background:#ffffff08;
+ padding:20px;
+ border-radius:15px;
+ margin:25px 0;
+ line-height:2.2;
+ color:#eee2f5;
+ font-size:14px;
+}
+.btn {
+ display:block;
+ background:linear-gradient(90deg,#8b00ff,#e00082);
+ color:white;
+ text-decoration:none;
+ padding:19px 12px;
+ border-radius:12px;
+ font-size:17px;
+ font-weight:900;
+ letter-spacing:1px;
+ box-shadow:0 0 25px #a000ff66;
+ transition:.3s;
+ animation:pulse 2s infinite;
+}
+.btn:hover {
+ transform:scale(1.04);
+ box-shadow:0 0 35px #d000ff;
+}
+@keyframes pulse {
+ 0%,100% {box-shadow:0 0 15px #a000ff55}
+ 50% {box-shadow:0 0 30px #e000ffbb}
+}
+.note {
+ margin-top:20px;
+ color:#9e8da5;
+ font-size:11px;
+ line-height:1.6;
+}
+.footer {
+ margin-top:25px;
+ font-size:11px;
+ color:#725c7d;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+
+ <div class="logo">💜</div>
+
+ <div class="tag">✦ EXPERIÊNCIA VIP ✦</div>
+
+ <h1>O acesso que você procura está <span>aqui!</span></h1>
+
+ <p class="description">
+   Entre na nossa comunidade exclusiva e descubra novidades,
+   conteúdos especiais e atualizações em primeira mão.
+ </p>
+
+ <div class="features">
+   🔥 Conteúdos selecionados<br>
+   💎 Ambiente exclusivo para membros<br>
+   ✨ Novidades e atualizações<br>
+   🚀 Acesso direto pelo Telegram
+ </div>
+
+ <a class="btn"
+ href="https://t.me/secret832"
+ target="_blank"
+ rel="noopener noreferrer">
+   ✈️ ACESSAR COMUNIDADE VIP
+ </a>
+
+ <p class="note">
+   Acesso pelo Telegram. Confira as informações e as regras
+   da comunidade antes de participar.
+ </p>
+
+ <div class="footer">
+   © 2026 • VIP EXCLUSIVE
+ </div>
+
+</div>
+</body>
+</html>
